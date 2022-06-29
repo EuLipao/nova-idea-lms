@@ -9,6 +9,23 @@
 body{
     font-family: sans-serif;
     text-align: center;
+
+    min-width: 500px;
+    
+}
+button{
+    margin: 5px ;
+}
+    div#linha{
+        display: flex;
+      flex-flow: row wrap;
+      
+}
+div#coluna1 {
+    width: 50%;
+}
+div#coluna2{
+    width: 50%;
 }
 
     </style>
@@ -18,7 +35,8 @@ body{
     </h1>Olá Luis Felipe Gomes Fernandes</h1>
     <hr>
     <h3>Escolha sua atividade</h3>
-        <div id="funcoesBLOCO">
+       <div id='linha'>
+         <div id="coluna1">
             <a href="quantidade.html"><abbr title="Abertura de tampas do grade baixa"><button> Abertura de tampa baixa </button></abbr></a><br>
 
             <br><a href="quantidade.html"><abbr title="Abertura das portas do container"><button> Abertura de container </button></abbr></a><br>
@@ -36,11 +54,14 @@ body{
             <br><a href="quantidade.html"><abbr title="Fechamento do veículo em plataforma, fechamento de tampas e colocação de 'X'para deslocamento ao enlonamento "><button> Fechamento grade baixa </button></abbr></a><br>
 
             <br><a href="quantidade.html"><abbr title="Fechamento da cortina com travamento e amarração completa"><button> Fechamento sider MI </button></abbr></a><br>
-
+        
+        
             <br><a href="quantidade.html"><abbr title="Remonte de pontas e/ou retirada de sacos"><button> Consolidação de sacos / Remonte </button></abbr></a><br>
-
+        </div>
+        <div id="coluna2">
             <br><a href="quantidade.html"><abbr title="Estacionamento de veículos push em que não é necessário fazer nenhuma abertura, apenas a preparação do veículo: estacionamento, LOTO e etc."><button> Estacionamento de veículos PUSH </button></abbr></a><br>
-
+        
+        
             <br><a href="quantidade.html"><abbr title="Amarração do push (sem tampa)"><button> Amarração completa de PUSH </button></abbr></a><br>
 
             <br><a href="quantidade.html"><abbr title="Colocação de capuz transparente em pallet - restrição de cliente."><button> Colocação de capuz </button></abbr></a><br>
@@ -59,6 +80,7 @@ body{
     
             <br><a href="#"><button> Almoço/Jantar </button></a><br>
         </div>
+    </div>
 
     <br><a href="/index.html"><input type="button" value="Voltar"></a>
 </body>

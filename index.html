@@ -5,60 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nova idea lms</title>
-    <style>
-        body{
-            font: 15pt normal ;
-            font-family: sans-serif;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <hr>
+   <div class="main">
+
      <h1> Digite seu Usuário</h1>
-    <hr>
-    <a href="atLog1.html" id="atlog1"> </a>
-    Login
-    <input type="text" name="User" id="User">
-    <input type="button" value="Ok" id="verificar">
 
-<script>
+    <label for="user">Login</label>
+    <input type="text" name="user" placeholder="coloque seu User Id" id="user" >
+    <input id="btn-ok" type="button" value="Ok" id="verificar" onclick="login()">
 
-    let verificar = window.document.querySelector('input#verificar')
-    let atlog1 = document.querySelector('a#atlog1')
+    </div>
 
-    function validar(){
-        const currentUser = document.querySelector('input#User').value 
-        
-       
-        switch (currentUser) {
-        case 'lfernandes':
-            window.location.href = atlog1          
-            break;
-        case 'log001':
-            alert(`Olá senhor  ${currentUser}`)
-
-            break;
-        case 'log002':
-             alert(`ola senhor ${currentUser}`)
-            break;
-        case 'operador001': 
-             alert(`ola senhor ${currentUser}`)
-             break;
-        case 'operador002': 
-             alert(`ola senhor ${currentUser}`)
-            break;
-        case 'operador003': 
-             alert(`ola senhor ${currentUser}`)
-            break;
-             default: 
-        alert(`Usuário nao encontrado`)
-            break;
-       }
-
-    }
-    verificar.addEventListener('click',validar)
-    
-</script>
+<script src="js/script.js"></script>
 </body>
 </html>

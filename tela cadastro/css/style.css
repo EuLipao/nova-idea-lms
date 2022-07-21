@@ -19,8 +19,8 @@ input:focus , label:focus{
 }
 
 body{
-    padding-top: 5vh;
-    background:linear-gradient(to right,#FFCC00,#FFEC9E);
+    padding-top: 15vh;
+    background:linear-gradient(to right,#FFCC00  ,#FFEC9E);
     
 }
 #main-container{

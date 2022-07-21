@@ -1,0 +1,47 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+    
+}
+
+body{
+    padding-top: 15vh;
+    background:linear-gradient(to right,#FFCC00  ,#FFEC9E);
+}
+.main{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    margin: 5vh auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.493);
+
+}
+label , input {
+    margin-top: 30px;
+    font-size: 1.1em;
+}
+#btn-ok{
+    background-color: #D40511;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    width:60px;
+    cursor: pointer;
+    
+}
+#user{
+    border-bottom: solid 2px #323232;
+    text-align: center;
+    
+}
+#user:focus{
+    outline: none;
+}

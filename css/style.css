@@ -13,13 +13,15 @@ body{
     padding-top: 15vh;
     background:linear-gradient(to right,#FFCC00,#FFEC9E);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
+    
 }
 .main{
     background-color: white;
     width: 430px;
     height: 200px;
-    margin: 5vh auto;
+    margin: 0px auto;
     text-align: center;
     padding: 50px;
     border-radius: 15px;

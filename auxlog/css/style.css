@@ -12,6 +12,8 @@
 body{
     background:linear-gradient(to right,#FFCC00  ,#FFEC9E);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.151);
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .main{

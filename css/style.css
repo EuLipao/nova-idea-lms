@@ -15,7 +15,8 @@ body{
 }
 .main{
     background-color: white;
-    width: 430px;
+    background-repeat:no-repeat;
+    width: 500px;
     height: 200px;
     margin: 5vh auto;
     text-align: center;
